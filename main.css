@@ -34,6 +34,15 @@ main {
     justify-content: center;
 }
 
+button {
+    display: block;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+    background-color: #f3e4ba;
+}
+
 .dropdown-block {
     display: flex;
     flex-direction: row;
@@ -50,7 +59,7 @@ h2 {
     font-size: 25px;
 }
 
-.horn-filter {
+select {
     font-size: 15px;
     margin-left: 10px;
 }
