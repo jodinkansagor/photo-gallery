@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-// import example from '../src/example.js';
+
 import './html-equal.js';
 import renderImage from '../home/render-image.js';
 
