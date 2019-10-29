@@ -36,34 +36,6 @@ function selection(formData) {
     return userSelection;
 }
 
-// hornFilter.addEventListener('change', () => {
-//     const filter = hornFilter.value;
-//     let filterImages = null;
-
-//     if (!filter) {
-//         filterImages = images;
-//     } else {
-//         filterImages = images.filter(image => {
-//             return image.keyword === filter;
-//         });
-//     }
-//     render(filterImages);
-// });
-
-// hornNumberFilter.addEventListener('change', () => {
-//     const numberFilter = hornNumberFilter.value;
-//     let numberFilterImages = null;
-
-//     if (!numberFilter) {
-//         numberFilterImages = images;
-//     } else {
-//         numberFilterImages = images.filter(image => {
-//             return image.horns >= numberFilter;
-//         });
-//     }
-//     render(numberFilterImages);
-// });
-
 function render(imagesToRender) {
 
     while (hornList.lastChild) {
